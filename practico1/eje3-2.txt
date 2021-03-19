@@ -1,0 +1,46 @@
+1 ¿cuáles son los repositorios de código de python más populares en Github?
+        son: 1 freeCodeCamp
+            2   996.ICU
+            3   vue
+            4   free-programming-books
+            5   react
+
+
+2 ¿qué licencias tienen?
+     1: BSD 3-Clause "New" or "Revised" License (uso comercial, modificacion, distribucion, uso privado)
+     2: gratuita 
+     3: MIT License (uso comercial, modificacion, distribucion, uso privado)
+     4: Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/).
+     5: MIT License (uso comercial, modificacion, distribucion, uso privado)
+
+
+3 compare los directorios de los siguientes repositorios:
+    a.numpy
+    b.black
+    c.requests-html.
+
+indicar de cada uno:
+    ¿cuál es el objetivo principal?
+    a: tiene paquetes que se utilizan para cálculos científicos con Python.
+    b: es un formateador de código Python (beta); organiza visualmente el código escrito.
+    c: es una librería que busca simplificar el análisis de HTML.
+
+    ¿cuál es el archivo que detalla objetivo y uso de cada uno?¿todos tienen la misma extensión?
+    ¿qué extensión tiene cada uno?
+    el archivo que detalla el objetivo y uso es el readme (en cada uno tiene distintas extensiones).
+    en el primero es ".txt", en el segundo ".md" y en el último es ".rst".
+
+    ¿qué archivos son comunes en cada repositorio?
+    ".gitignore"; "LICENSE"; "setup.py"; 
+
+    ¿qué directorios tienen en común?
+    sólo "docs" (contando que en uno aparece como "doc"). ".github" solo aparece en 2.
+
+    ¿cuántos branches tienen cada uno?
+    a: 27; b: 7; c: 5.
+
+    ¿cuál es el/la mayor contribuyente?
+    a: https://github.com/teoliphant  ; b: https://github.com/ambv   ; c: https://github.com/kenreitz42
+
+    ¿todos los archivos tienen documentacion en docstring?
+    si, con diversas extensiones.
