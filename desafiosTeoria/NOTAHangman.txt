@@ -1,0 +1,9 @@
+Cambios realizados:
+ * Traduccion al castellano
+ * Luego de 2 intentos fallidos, se dará una pista de la cantidad de sílabas de la palabra a adivinar.
+ Para ello, como no hay forma de determinar las silabas directamente desde el string,
+ se creó un nuevo diccionario cuyas claves son iguales al de palabras y cuyos valores
+ consisten en la cantidad de silabas de cada palabra del diccionario de palabras.
+ Se utilizan los mismos indices random obtenidos para la palabra secreta, por lo que de esta
+ forma se obtiene de esa palabra en el diccionario de palabras, la cantidad de silabas en el diccionario
+ de silabas, ya que con los mismos indices se llega a las silabas correspondientes a esa palabra.
