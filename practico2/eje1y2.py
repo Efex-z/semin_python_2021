@@ -109,8 +109,8 @@ def maximoDic(diccionario):
     max = -1
     claveMax = ''
     for clave in diccionario:
-        if diccionario.get(clave) > max:
-            max = diccionario.get(clave)
+        if diccionario[clave] > max:
+            max = diccionario[clave]
             claveMax = clave
     return (claveMax, max)
 
@@ -125,14 +125,11 @@ dicc2 = {}
 for car in texto:
     if not car.isalpha():
         texto = texto.replace(car, ' ')
+texto2 = texto.lower().split()
+for elemento in texto2:
+    dicc2[elemento] = texto2.count(elemento)
 
-for elemento in texto.lower().split():
-    if elemento not in dicc2:
-        dicc2[elemento] = 1
-    else:
-        dicc2[elemento] = dicc2[elemento] + 1
-
-claveMax, apariciones = maximoDic(dicc)
+claveMax, apariciones = maximoDic(dicc2)
 print( "ejercicio 2:")
 print(
     f'La palabra {claveMax} es la que aparece más veces en el texto, con {apariciones} apariciones')
