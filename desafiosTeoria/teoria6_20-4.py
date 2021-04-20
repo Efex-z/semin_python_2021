@@ -14,6 +14,7 @@ lista_gratuitos_espanol = filter(lambda x: (x[7] == '0') and 'ES' in x[12], csvr
 print('Juegos gratuitos en español: ')
 #for elemento in lista_gratuitos_espanol:
 #    print(elemento)
+# nota: lo deje comentado para no imprimir todo (lleva tiempo porque son muchos) y poder testear la segunda consigna
 print()
 # fin de desafio 1 -----------------------------------------------------------------------------------------------
 
